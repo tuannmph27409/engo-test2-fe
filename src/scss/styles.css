@@ -844,9 +844,10 @@ img {
 .sub-mail {
   background-image: url(../assets/CTA.png);
   background-repeat: no-repeat;
+  background-position: center;
 }
 
-.sub-mail-bg2 {
+.sub-mail--bg2 {
   background-image: url(../assets/bg-2.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -1037,6 +1038,10 @@ ul.breadcrumb li + li:before {
   padding: 15px 0px 15px 20px;
   width: 90%;
   outline: none;
+}
+
+.items-side-bar__select--devices {
+  width: 210px;
 }
 
 .side-bar-post {
@@ -1245,9 +1250,10 @@ ul.breadcrumb li + li:before {
 .related__img {
   overflow: hidden;
   border-radius: 5px;
+  transform: 0.6s;
 }
-.related__img img:hover {
-  transform: 0.3s;
+
+.related__img:hover img {
   transform: scale(1.1);
 }
 
@@ -1598,10 +1604,13 @@ ul.breadcrumb li + li:before {
 .product__img {
   overflow: hidden;
 }
-.product__img img:hover {
-  transform: scale(1.1);
+.product__img img {
   transition: 0.3s;
   box-shadow: gray;
+}
+
+.product__img:hover img {
+  transform: scale(1.1);
 }
 
 .product-category {
@@ -1638,9 +1647,12 @@ ul.breadcrumb li + li:before {
 .product-detail__img {
   overflow: hidden;
 }
-.product-detail__img img:hover {
+.product-detail__img img {
+  transition: 0.5s;
+}
+
+.product-detail__img:hover img {
   transform: scale(1.1);
-  transition: 0.3s;
 }
 
 .product-detail__img-small {
@@ -1658,9 +1670,12 @@ ul.breadcrumb li + li:before {
 .product-detail__img-detail {
   overflow: hidden;
 }
-.product-detail__img-detail img:hover {
-  transform: scale(1.1);
+.product-detail__img-detail img {
   transition: 0.3s;
+}
+
+.product-detail__img-detail:hover img:hover {
+  transform: scale(1.1);
 }
 
 .product-detail-font {
@@ -1731,7 +1746,7 @@ ul.breadcrumb li + li:before {
   font-family: Outfit;
   font-size: 18px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 155.556%;
   letter-spacing: 0.4px;
   padding-bottom: 30px;
@@ -1828,6 +1843,7 @@ ul.breadcrumb li + li:before {
   font-weight: 500;
   line-height: 155.556%;
   letter-spacing: 0.4px;
+  cursor: pointer;
 }
 
 .tab__content {
@@ -1844,16 +1860,12 @@ ul.breadcrumb li + li:before {
   font-style: normal;
   font-weight: 400;
   line-height: 162.5%;
+  column-count: 2;
 }
 
 .tab__menu a:hover {
   color: aqua;
-}
-
-.header__before--tab::before {
-  background-color: green;
-  position: absolute;
-  transform: translate(45px, -75%);
+  transition: 0.3s;
 }
 
 .blog {

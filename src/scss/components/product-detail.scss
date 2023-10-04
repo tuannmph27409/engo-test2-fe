@@ -16,9 +16,13 @@
 
 .product-detail__img {
   overflow: hidden;
-  img:hover {
+  img {
+    transition: 0.5s;
+  }
+}
+.product-detail__img:hover {
+  img {
     transform: scale(1.1);
-    transition: 0.3s;
   }
 }
 
@@ -37,8 +41,12 @@
 
 .product-detail__img-detail {
   overflow: hidden;
+  img {
+    transition: 0.3s;
+  }
+}
+.product-detail__img-detail:hover {
   img:hover {
     transform: scale(1.1);
-    transition: 0.3s;
   }
 }

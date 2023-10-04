@@ -16,6 +16,7 @@
     font-weight: 500;
     line-height: 155.556%;
     letter-spacing: 0.4px;
+    cursor: pointer;
   }
 }
 
@@ -33,16 +34,12 @@
   font-style: normal;
   font-weight: 400;
   line-height: 162.5%;
+  column-count: 2;
 }
 
 .tab__menu {
   a:hover {
     color: aqua;
+    transition: 0.3s;
   }
-}
-
-.header__before--tab::before {
-  background-color: green;
-  position: absolute;
-  transform: translate(45px, -75%);
 }

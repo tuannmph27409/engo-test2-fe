@@ -550,12 +550,15 @@
                                 <div class="category__title">
                                     <h2>Devices</h2>
                                 </div>
-                                <div class="category__select">
-                                    <select class="side-bar-select__select">
-                                        <option value="select">Shorting By</option>
-                                        <option value="saab">Saab</option>
-                                        <option value="vw">VW</option>
-                                    </select>
+                                <div class="items-side-bar__select items-side-bar__select--devices">
+                                    <input type="text" placeholder="Shorting By">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                        fill="none">
+                                        <g opacity="0.7">
+                                            <path d="M3.5 5.25L7 8.75L10.5 5.25" stroke="#888682" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                    </svg>
                                 </div>
                             </div>
                             <div class="product">
@@ -709,7 +712,7 @@
         </section>
         <!-- END Section 1-->
         <section class="section">
-            <div class="sub-mail-bg2">
+            <div class="sub-mail sub-mail--bg2">
                 <div class="sub-mail__font">
                     <div class="sub-mail__title">
                         Get help, find answers, download drivers, manuals and much more
@@ -718,11 +721,9 @@
                         Contact us online through chat and get support from an expert
                     </div>
                     <div class="sub-mail__send-mail">
-
-                        <div class="posts__button posts__button--sub-mail">
-                            <button><a href="#">Chat Now
-                                </a></button>
-                        </div>
+                        <button class="button button--blue">
+                            Chat Now
+                        </button>
                     </div>
                 </div>
             </div>
@@ -807,9 +808,9 @@
                             </div>
                             <div class="footer__send-mail">
                                 <input type="text" placeholder="Enter email">
-                                <div class="footer__button">
-                                    <button><a href="#">Submit</a></button>
-                                </div>
+                                <button class="button button--blue">
+                                    Submit
+                                </button>
                             </div>
                             <div class="footer__items-content">
                                 We hate spam as much as you do. We will never, ever send you such emails.

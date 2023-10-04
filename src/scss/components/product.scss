@@ -41,10 +41,15 @@
 
 .product__img {
   overflow: hidden;
-  img:hover {
-    transform: scale(1.1);
+  img {
     transition: 0.3s;
     box-shadow: gray;
+  }
+}
+
+.product__img:hover {
+  img {
+    transform: scale(1.1);
   }
 }
 
