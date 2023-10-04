@@ -1,0 +1,117 @@
+.evaluate {
+  width: 100%;
+  min-height: 781px;
+  flex-shrink: 0;
+  background: var(--bgbg-light-alt, #f7f5f1);
+}
+
+.evaluate__title {
+  h2 {
+    color: var(--text-heading, #2d3958);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Outfit;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 116.667%;
+    letter-spacing: -2px;
+    padding-top: 120px;
+  }
+}
+
+.evaluate__content {
+  color: var(--text-text, #7b88a8);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145.455%;
+  letter-spacing: -1px;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.evaluate__items {
+  border-radius: 20px;
+  background: var(--color-5, #fff);
+  width: 100%;
+  min-height: 350px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.evaluate__items-name {
+  color: var(--text-heading, #2d3958);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145.455%;
+  letter-spacing: -1px;
+}
+
+.evaluate__items-position {
+  color: var(--text-text, #7b88a8);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.5%;
+  padding-bottom: 20px;
+}
+
+.evaluate__items-content {
+  color: var(--text-text, #7b88a8);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.556%;
+  letter-spacing: -0.3px;
+  padding: 30px 35px 45px 35px;
+}
+
+.evaluate__items-img {
+  padding-top: 35px;
+  padding-bottom: 10px;
+  img {
+    width: 20%;
+    border-radius: 50%;
+  }
+}
+
+.evaluate__items-all {
+  padding: 0px 80px 120px 80px;
+}
+
+.evaluate__items-before {
+  position: relative;
+  .evaluate__items::before {
+    content: "";
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    background-color: #4f77ff;
+    position: absolute;
+    border-radius: 50% 50% 0% 50%;
+    top: 0px;
+    left: -80px;
+  }
+}
+
+.evaluate__items-img {
+  overflow: hidden;
+  img:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+  }
+}

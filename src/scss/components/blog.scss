@@ -1,0 +1,96 @@
+.blog {
+  width: 100%;
+  min-height: 1089px;
+  flex-shrink: 0;
+  background: var(--bgbg-light, #f8fafc);
+  padding-top: 120px;
+}
+.blog__items-all {
+  padding-top: 90px;
+}
+
+.blog__title {
+  color: var(--text-heading, #2d3958);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 116.667%;
+  letter-spacing: -2px;
+  padding-top: 120px;
+  padding-right: 220px;
+  padding-left: 220px;
+}
+
+.blog__items {
+  border-bottom: 1px solid #e7e5ea;
+}
+
+.blog__items-title {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  a {
+    color: var(--text-heading, #2d3958);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145.455%;
+    letter-spacing: -1px;
+  }
+}
+
+.blog__items-content {
+  color: var(--text-text, #7b88a8);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.556%;
+  letter-spacing: -0.3px;
+
+  // min-height: 100px;
+}
+
+.blog__items-date-time {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 25px;
+  padding-top: 18px;
+}
+
+.blog__items-date {
+  display: flex;
+  gap: 5px;
+}
+
+.blog__date-hour {
+  color: var(--text-text, #7b88a8);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 171.429%;
+  letter-spacing: -0.3px;
+}
+
+.blog__items-img {
+  overflow: hidden;
+  border-radius: 20px;
+  img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+}
+
+.blog__items-title {
+  a:hover {
+    color: aqua;
+    transition: 0.3s;
+  }
+}

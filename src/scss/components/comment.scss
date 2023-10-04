@@ -1,0 +1,102 @@
+.comment {
+  border: 1px solid rgba(97, 119, 152, 0.2);
+}
+
+.comment__all {
+  padding: 40px 40px 50px 30px;
+}
+
+.comment__border {
+  border-bottom: 1px solid rgba(97, 119, 152, 0.2);
+  border-top: 1px solid rgba(97, 119, 152, 0.2);
+}
+.comment__items {
+  padding-top: 20px;
+  display: flex;
+  gap: 30px;
+}
+
+.comment__avt {
+  img {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 80px;
+  }
+}
+
+.comment__content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.comment__user {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment__name {
+  color: var(--text-heading, #333);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.5%;
+}
+
+.comment__date {
+  color: var(--text-text, #7b88a8);
+  text-align: right;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 171.429%;
+  letter-spacing: 0.4px;
+  opacity: 0.7;
+}
+
+.comment__reply {
+  display: flex;
+  padding: 20px 0px 20px 15px;
+}
+
+.comment__send {
+  a {
+    color: var(--action-blue, #4f77ff);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Outfit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 171.429%;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+  }
+}
+
+.comment__send {
+  a:hover {
+    transition: 0.3s;
+    color: aqua;
+  }
+}
+
+.comment__svg {
+  svg {
+    path:hover {
+      transition: 0.3s;
+      fill: aqua;
+    }
+  }
+}
+
+.comment__rep {
+  padding-left: 145px;
+  padding-top: 10px;
+  display: flex;
+  gap: 30px;
+}

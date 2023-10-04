@@ -1,0 +1,47 @@
+.comment__input {
+  width: 100%;
+  height: 48px;
+  padding: 18px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid var(--lines-gray-line, #e7e5ea);
+  background: var(--bgbg-white, #fff);
+}
+
+.comment__desc {
+  textarea {
+    resize: vertical;
+    min-height: 170px;
+  }
+}
+
+.comment__button {
+  padding-top: 30px;
+  button {
+    padding: 13px 24px;
+    border-radius: 5px;
+    background: var(--action-blue, #4f77ff);
+    border: none;
+    width: 140px;
+    height: 48px;
+  }
+  a {
+    color: #fff;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Outfit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 171.429%;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+  }
+}
+
+.comment__button {
+  button:hover {
+    transition: 0.3s;
+    background-color: aqua;
+  }
+}

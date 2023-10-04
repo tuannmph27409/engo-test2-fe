@@ -1,0 +1,79 @@
+.teams__all {
+  background-color: #f7f5f1;
+  width: 100%;
+  min-height: 309px;
+  flex-shrink: 0;
+  padding: 0px 60px;
+}
+
+.teams__title {
+  h3 {
+    color: var(--text-heading, #2d3958);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Outfit;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 127.778%;
+    letter-spacing: -1px;
+  }
+}
+
+.teams__all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.teams {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 120px;
+}
+
+.teams__items {
+  display: flex;
+  gap: 30px;
+}
+
+.teams__items-icon {
+  background-color: #886cff;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  padding: 40px;
+
+  position: relative;
+  svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.teams__items-icon--color {
+  background-color: #4f77ff;
+}
+
+.teams__items-title {
+  color: var(--text-heading, #2d3958);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 155.556%;
+  letter-spacing: 0.4px;
+  padding-bottom: 10px;
+}
+
+.teams__items-content {
+  color: var(--text-text, #7b88a8);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.5%;
+}

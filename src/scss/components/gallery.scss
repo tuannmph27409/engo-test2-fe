@@ -1,0 +1,175 @@
+.gallery {
+  padding: 0px 90px 130px 90px;
+}
+
+.gallery__img-all {
+  position: relative;
+}
+
+.gallery__img-all::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: #61dcdf;
+  bottom: 0;
+  left: -90px;
+  border-radius: 50% 50% 0% 50%;
+}
+
+.gallery__title-price {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+.gallery__title {
+  h3 {
+    color: var(--text-heading, #2d3958);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145.455%;
+    letter-spacing: -1px;
+  }
+}
+
+.gallery__price {
+  color: var(--text-text, #7b88a8);
+  text-align: right;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145.455%;
+  letter-spacing: -1px;
+}
+
+.gallery__content {
+  color: var(--text-text, #7b88a8);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.556%;
+  letter-spacing: -0.3px;
+  width: 570px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.gallery__items-all {
+  padding-left: 100px;
+  padding-top: 40px;
+}
+
+.gallery__items-title {
+  h3 {
+    color: var(--text-heading, #2d3958);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Outfit;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 119.048%;
+    letter-spacing: -0.84px;
+
+    min-height: 91px;
+    flex-shrink: 0;
+    padding-bottom: 40px;
+  }
+}
+
+.gallery__items-content {
+  color: var(--black-200, #788190);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.556%;
+  letter-spacing: -0.3px;
+
+  min-height: 76px;
+  flex-shrink: 0;
+  padding-bottom: 60px;
+}
+
+.gallery__link {
+  a {
+    color: var(--action-purple, #886cff);
+    text-align: right;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Outfit;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+  }
+}
+
+.gallery__path {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 90px;
+}
+
+.gallery__svg-all {
+  display: flex;
+  gap: 17px;
+  position: relative;
+}
+
+.gallery__svg-bg {
+  background-color: #fff;
+  width: 56px;
+  height: 56px;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: relative;
+  svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.gallery__svg-bg:hover {
+  box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.2);
+  svg {
+    path {
+      stroke: #2d3958;
+    }
+  }
+}
+
+.gallery__img {
+  overflow: hidden;
+  border-radius: 20px;
+  img:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
+}
+
+.gallery__link {
+  a:hover {
+    color: aqua;
+  }
+}
+.gallery__path:hover {
+  svg {
+    path:hover {
+      stroke: aqua;
+    }
+  }
+}

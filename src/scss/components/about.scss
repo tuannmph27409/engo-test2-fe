@@ -1,0 +1,223 @@
+.about {
+  background-image: url(../assets/about-bg.png);
+  background-size: 100% 90%;
+  background-repeat: no-repeat;
+}
+
+.about__font {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 110px;
+}
+
+.about__title {
+  h2 {
+    width: 870px;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Outfit;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 116.667%;
+    letter-spacing: -2px;
+    color: var(--text-heading, #2d3958);
+  }
+  span {
+    background: var(
+      --Purple-Gradient,
+      linear-gradient(186deg, #61dcdf 0.38%, #886cff 100%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.about__content {
+  width: 870px;
+  height: 20px;
+  color: var(--text-text, #7b88a8);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.556%;
+  letter-spacing: -0.3px;
+  padding-bottom: 80px;
+}
+
+.about__items-bg {
+  width: 100%;
+  min-height: 554px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 60px 40px 0px rgba(18, 2, 47, 0.1);
+  position: relative;
+  padding: 60px 60px 0px 60px;
+  z-index: 1;
+}
+
+.about__items-bg::after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: #ffc623;
+  top: 225px;
+  right: -80px;
+  border-radius: 50% 50% 50% 0%;
+}
+
+.about__items-off {
+  padding-bottom: 30px;
+  a {
+    color: var(--action-blue, #4f77ff);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155.556%;
+    letter-spacing: -0.3px;
+  }
+}
+
+.about__items-title {
+  h3 {
+    color: var(--text-heading, #2d3958);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Outfit;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 127.778%;
+    letter-spacing: -1px;
+    padding-bottom: 30px;
+  }
+}
+
+.about__items-content {
+  color: var(--text-text, #7b88a8);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.556%;
+  letter-spacing: -0.3px;
+  padding-bottom: 40px;
+}
+
+.about__items-path-svg {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.about__items-path {
+  a {
+    color: var(--text-text, #7b88a8);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Outfit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 171.429%;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+  }
+}
+
+.about__items-svg1 {
+  text-align: center;
+  padding-top: 55px;
+  padding-bottom: 40px;
+}
+
+.about__img-small {
+  width: 370px;
+  height: 230px;
+  position: absolute;
+  transform: translate(25%, 45%);
+  z-index: 1;
+  img {
+    border-radius: 20px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 5px 20px 0px rgba(18, 2, 47, 0.15);
+  }
+}
+
+.about__items-all {
+  position: relative;
+  padding-right: 220px;
+}
+
+.about__img-bg {
+  position: relative;
+  top: -300px;
+  left: 25%;
+  z-index: 0;
+}
+
+.about__img-big::after {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-color: #886cff;
+  bottom: 0px;
+  right: -70px;
+  border-radius: 50% 50% 50% 0%;
+}
+
+.about__img {
+  padding-left: 40px;
+}
+
+.about__img-small {
+  overflow: hidden;
+  border-radius: 20px;
+  img:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+  }
+}
+
+.about__img-big {
+  overflow: hidden;
+  border-radius: 20px;
+  img:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+  }
+}
+
+.about__items-path {
+  a:hover {
+    color: aqua;
+    transition: 0.3s;
+  }
+}
+
+.about__items-path-svg {
+  svg {
+    path:hover {
+      fill: aqua;
+      transition: 0.3s;
+    }
+  }
+}
+
+.about__items-off {
+  a:hover {
+    color: aqua;
+    transition: 0.3s;
+  }
+}

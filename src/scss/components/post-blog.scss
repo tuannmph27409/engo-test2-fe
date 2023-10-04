@@ -1,0 +1,49 @@
+.post-blog__news-all {
+  border-bottom: 1px solid #e7e5ea;
+}
+
+.post-blog__news-pd {
+  padding-bottom: 30px;
+}
+
+.post-blog__news-title {
+  width: 250px;
+  height: 88px;
+  flex-shrink: 0;
+  a {
+    color: var(--text-heading, #2d3958);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145.455%;
+    letter-spacing: -1px;
+  }
+}
+
+.post-blog__items-all {
+  padding-top: 90px;
+}
+
+.post-blog__img {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+
+.post-blog__img {
+  overflow: hidden;
+  border-radius: 20px;
+  img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+}
+
+.post-blog__news-title {
+  a:hover {
+    color: aqua;
+    transition: 0.3s;
+  }
+}

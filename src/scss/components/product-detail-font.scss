@@ -1,0 +1,160 @@
+.product-detail-font {
+  padding-left: 80px;
+}
+
+.product-detail-font__title {
+  h2 {
+    color: var(--text-heading, #2d3958);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Outfit;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 119.048%;
+    letter-spacing: -0.84px;
+  }
+}
+
+.product-detail-font__price {
+  color: var(--text-text, #7b88a8);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.556%;
+  letter-spacing: -0.3px;
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+
+.product-detail-font__content {
+  color: var(--text-text, #7b88a8);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.5%;
+  padding-bottom: 36px;
+  padding-top: 45px;
+  span {
+    color: var(--action-blue, #4f77ff);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+  }
+}
+
+.product-detail-font__svg-color {
+  display: flex;
+  gap: 10px;
+}
+
+.product-detail-font__tags {
+  border-top: 1px solid #e7e5ea;
+  border-bottom: 1px solid #e7e5ea;
+  display: flex;
+  gap: 20px;
+  padding: 15px 0px;
+}
+
+.product-detail-font__title-color {
+  h3 {
+    color: var(--text-heading, #2d3958);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 155.556%;
+    letter-spacing: 0.4px;
+    padding-bottom: 30px;
+  }
+}
+
+.product-detail-font__content {
+  span {
+    a:hover {
+      color: aqua;
+      transition: 0.3s;
+    }
+  }
+}
+
+.product-detail-font__quantity {
+  padding-top: 40px;
+  padding-bottom: 30px;
+
+  form {
+    display: flex;
+    gap: 10px;
+  }
+
+  input {
+    text-align: center;
+    width: 98px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid var(--lines-gray-line, #e7e5ea);
+    background: var(--bgbg-white, #fff);
+    outline: none;
+  }
+
+  button {
+    border-radius: 5px;
+    background: var(--action-blue, #4f77ff);
+    width: 129px;
+    height: 48px;
+    border: none;
+
+    a {
+      color: #fff;
+      text-align: center;
+      font-feature-settings: "clig" off, "liga" off;
+      font-family: Outfit;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 171.429%;
+      letter-spacing: -0.3px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.product-detail-font__tags-font {
+  color: var(--text-heading, #2d3958);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162.5%;
+  letter-spacing: 0.4px;
+
+  a {
+    color: var(--action-blue, #4f77ff);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+  }
+}
+
+.product-detail-font__svg {
+  padding-bottom: 52px;
+}
+
+.product-detail-font__quantity {
+  button:hover {
+    background-color: aqua;
+  }
+}

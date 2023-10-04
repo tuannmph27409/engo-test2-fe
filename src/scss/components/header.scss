@@ -1,0 +1,130 @@
+.header__menu-all {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 30px 0px;
+}
+
+.header__name {
+  color: var(--text-heading, #2d3958);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 133.333%;
+  letter-spacing: -0.4px;
+}
+
+.header__logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.header__menu-right {
+  display: flex;
+  gap: 130px;
+  align-items: center;
+}
+
+.header__menu {
+  ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    li {
+      display: flex;
+    }
+    a {
+      color: var(--text-text, #7b88a8);
+      font-feature-settings: "clig" off, "liga" off;
+      font-family: Outfit;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 160%;
+      letter-spacing: -0.3px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.header__button {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.header__menu-svg {
+  display: flex;
+  gap: 20px;
+}
+
+.header__button-signup {
+  border-radius: 5px;
+  background: var(--action-blue, #4f77ff);
+  padding: 13px 24px;
+  border: none;
+  width: 129px;
+  height: 48px;
+  a {
+    color: #fff;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Outfit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 171.429%;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+  }
+}
+
+.header__home {
+  color: var(--text-heading, #2d3958);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+}
+
+.header__before::before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.header__before--green::before {
+  background-color: #34c635;
+  transform: translate(16px, -10px);
+}
+
+.header__before--red::before {
+  background-color: #ef3737;
+  border: 1px solid white;
+  transform: translate(10px, 0px);
+}
+
+.active {
+  background-color: #fff;
+  box-shadow: 0px 0px 15px 0px gray;
+}
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
+.header__button {
+  button:hover {
+    background-color: aqua;
+  }
+}

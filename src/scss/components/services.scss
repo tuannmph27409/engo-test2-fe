@@ -1,0 +1,137 @@
+.services {
+  padding-bottom: 120px;
+}
+
+.services__items-all {
+  border-radius: 12px;
+  border: 1px solid var(--lines-gray-line, #e7e5ea);
+  width: 100%;
+  min-height: 330px;
+  flex-shrink: 0;
+}
+
+.services__font {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 80px;
+}
+
+.services__title {
+  h2 {
+    color: var(--text-heading, #2d3958);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Outfit;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 116.667%;
+    letter-spacing: -2px;
+    width: 800px;
+    min-height: 101px;
+  }
+}
+
+.services__content {
+  color: var(--text-text, #7b88a8);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.556%;
+  letter-spacing: -0.3px;
+  width: 970px;
+}
+
+.services__items-svg {
+  text-align: center;
+  position: relative;
+  z-index: 3;
+  padding-top: 62px;
+  padding-bottom: 58px;
+}
+
+.services__items-svg::before {
+  content: "";
+  position: absolute;
+  background-color: #886cff;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  width: 90px;
+  height: 90px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.services__items-svg--color1::before {
+  background-color: #4f77ff;
+  opacity: 0.2;
+}
+
+.services__items-svg--color2::before {
+  background-color: #ff9513;
+  opacity: 0.2;
+}
+
+.services__items-title {
+  color: var(--primary-color-black, #120f1f);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145.455%;
+  letter-spacing: -1px;
+  padding-bottom: 20px;
+}
+
+.services__items-content {
+  color: var(--text-text, #7b88a8);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.5%;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 64px;
+}
+
+.services__button {
+  padding-top: 85px;
+  text-align: center;
+}
+
+.services__items-before {
+  position: relative;
+
+  .services__items-all::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 0px;
+    right: -70px;
+    background-color: #4f77ff;
+    border-radius: 50% 50% 50% 0%;
+  }
+}
+
+.services__all {
+  padding: 0px 60px;
+}
+
+.services__items-all:hover {
+  box-shadow: 0px 20px 50px 0px rgba(79, 119, 255, 0.2);
+}

@@ -1,0 +1,37 @@
+.items-side-bar {
+  min-height: 146px;
+  flex-shrink: 0;
+  padding: 20px 30px 0px 30px;
+}
+
+.items-side-bar__title {
+  color: var(--text-heading, #2d3958);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 155.556%;
+  letter-spacing: 0.4px;
+  padding: 0px 0px 29px 0px;
+}
+
+.items-side-bar {
+  input {
+    width: 210px;
+    height: 48px;
+    border-radius: 5px;
+    border: 1px solid var(--lines-gray-line, #e7e5ea);
+    background: var(--bgbg-white, #fff);
+    padding: 11px 19px;
+    opacity: 0.7;
+    outline: none;
+  }
+
+  svg {
+    position: relative;
+    bottom: 33px;
+    left: 182px;
+    opacity: 0.7;
+  }
+}

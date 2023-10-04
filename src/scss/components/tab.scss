@@ -1,0 +1,48 @@
+.tab {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 100px;
+}
+
+.tab__menu {
+  padding-bottom: 30px;
+  a {
+    color: var(--text-heading, #2d3958);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 155.556%;
+    letter-spacing: 0.4px;
+  }
+}
+
+.tab__content {
+  border-top: 1px solid #e7e5ea;
+  border-bottom: 1px solid #e7e5ea;
+  padding: 40px 0px 60px 0px;
+}
+
+.tab__font {
+  color: var(--text-text, #7b88a8);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.5%;
+}
+
+.tab__menu {
+  a:hover {
+    color: aqua;
+  }
+}
+
+.header__before--tab::before {
+  background-color: green;
+  position: absolute;
+  transform: translate(45px, -75%);
+}
