@@ -1,7 +1,8 @@
 .items-side-bar {
   min-height: 146px;
-  flex-shrink: 0;
-  padding: 20px 30px 0px 30px;
+  padding: 20px 30px 30px 30px;
+  border-radius: 5px;
+  background: var(--bgbg-light, #f8fafc);
 }
 
 .items-side-bar__title {
@@ -10,28 +11,23 @@
   font-family: Outfit;
   font-size: 18px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 155.556%;
   letter-spacing: 0.4px;
   padding: 0px 0px 29px 0px;
 }
 
-.items-side-bar {
+.items-side-bar__select {
+  border-radius: 5px;
+  border: 1px solid #e7e5ea;
+  background: #fff;
+  width: 100%;
+  padding-right: 10px;
   input {
-    width: 210px;
-    height: 48px;
+    border: none;
     border-radius: 5px;
-    border: 1px solid var(--lines-gray-line, #e7e5ea);
-    background: var(--bgbg-white, #fff);
-    padding: 11px 19px;
-    opacity: 0.7;
+    padding: 15px 0px 15px 20px;
+    width: 90%;
     outline: none;
-  }
-
-  svg {
-    position: relative;
-    bottom: 33px;
-    left: 182px;
-    opacity: 0.7;
   }
 }

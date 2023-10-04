@@ -1,15 +1,10 @@
-.side-bar-post__latest {
-  width: 270px;
-  min-height: 354px;
-  flex-shrink: 0;
-  padding: 20px 30px 30px 35px;
-}
-
-.side-bar-post__post {
+.side-bar-post {
   display: flex;
   gap: 20px;
   padding: 10px 0px;
+}
 
+.side-bar-post__img {
   img {
     width: 50px;
     height: 55px;
@@ -30,8 +25,8 @@
 }
 
 .side-bar-post__content {
-  transition: 0.3s;
   a:hover {
+    transition: 0.3s;
     color: aqua;
   }
 }

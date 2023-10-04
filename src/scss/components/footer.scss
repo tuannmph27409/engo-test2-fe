@@ -106,29 +106,6 @@
   }
 }
 
-.footer__button {
-  button {
-    border-radius: 5px;
-    background: var(--action-blue, #4f77ff);
-    width: 129px;
-    height: 48px;
-    border: none;
-
-    a {
-      color: #fff;
-      text-align: center;
-      font-feature-settings: "clig" off, "liga" off;
-      font-family: Outfit;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 171.429%;
-      letter-spacing: -0.3px;
-      text-transform: uppercase;
-    }
-  }
-}
-
 .footer__hr {
   opacity: 0.3;
   background: var(--text-text, #7b88a8);
@@ -138,11 +115,4 @@
 
 .footer__hr-pd {
   padding: 100px 0px 40px 0px;
-}
-
-.footer__button {
-  button:hover {
-    background-color: aqua;
-    transition: 0.3s;
-  }
 }

@@ -29,7 +29,8 @@
   }
 
   .pagination a:hover:not(.active) {
-    background-color: #ddd;
-    border-radius: 5px;
+    color: aqua;
+    transition: 0.3s;
+    transform: scale(1.3);
   }
 }

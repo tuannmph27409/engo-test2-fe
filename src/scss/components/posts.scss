@@ -83,30 +83,6 @@
   line-height: 162.5%;
 }
 
-.posts__button {
-  padding: 52px 0px 50px 0px;
-
-  button {
-    border-radius: 5px;
-    background: var(--action-blue, #4f77ff);
-    padding: 13px 24px;
-    border: none;
-
-    a {
-      color: #fff;
-      text-align: center;
-      font-feature-settings: "clig" off, "liga" off;
-      font-family: Outfit;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 171.429%;
-      letter-spacing: -0.3px;
-      text-transform: uppercase;
-    }
-  }
-}
-
 .posts__item-all {
   display: flex;
   // width: 835px;
@@ -119,7 +95,7 @@
 
 .posts__title {
   h2:hover {
-    transition: 0.3s;
+    transition: 0.5s;
     color: aqua;
   }
 }
@@ -127,9 +103,8 @@
 .posts__img {
   overflow: hidden;
   border-radius: 5px;
-
   img {
-    transition: 0.3s;
+    transition: 0.5s;
     vertical-align: middle;
   }
 }
@@ -141,7 +116,5 @@
 }
 
 .posts__button {
-  button:hover {
-    background-color: aqua;
-  }
+  padding: 40px 0px;
 }
