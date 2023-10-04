@@ -710,6 +710,16 @@ img {
   padding: 100px 0px 40px 0px;
 }
 
+.footer__items a:hover {
+  color: aqua;
+  transition: 0.3s;
+}
+
+.footer__menu-title a:hover {
+  color: aqua;
+  transition: 0.3s;
+}
+
 .posts {
   padding: 100px 0px;
 }
@@ -1148,10 +1158,6 @@ ul.breadcrumb li + li:before {
   line-height: 171.429%;
   letter-spacing: -0.3px;
   text-transform: uppercase;
-}
-
-.side-bar-img__button button:hover {
-  background-color: aqua;
 }
 
 .posts-detail {

@@ -116,3 +116,17 @@
 .footer__hr-pd {
   padding: 100px 0px 40px 0px;
 }
+
+.footer__items {
+  a:hover {
+    color: aqua;
+    transition: 0.3s;
+  }
+}
+
+.footer__menu-title {
+  a:hover {
+    color: aqua;
+    transition: 0.3s;
+  }
+}
