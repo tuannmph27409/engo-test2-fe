@@ -7,7 +7,6 @@
 
 .header__name {
   color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 24px;
   font-style: normal;
@@ -39,7 +38,7 @@
     }
     a {
       color: var(--text-text, #7b88a8);
-      font-feature-settings: "clig" off, "liga" off;
+
       font-family: Outfit;
       font-size: 15px;
       font-style: normal;

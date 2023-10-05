@@ -494,7 +494,6 @@ img {
 
 .header__name {
   color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 24px;
   font-style: normal;
@@ -526,7 +525,6 @@ img {
 }
 .header__menu ul a {
   color: var(--text-text, #7b88a8);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 15px;
   font-style: normal;
@@ -599,7 +597,6 @@ img {
 .footer {
   width: 100%;
   height: 100%;
-  flex-shrink: 0;
   background: var(--bgbg-gray, #292f3a);
   padding-top: 100px;
 }
@@ -769,7 +766,6 @@ img {
 
 .posts__info-name {
   color: var(--text-text, #7b88a8);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 15px;
   font-style: normal;
@@ -782,7 +778,6 @@ img {
 .posts__info-day {
   color: var(--text-text, #7b88a8);
   text-align: right;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 14px;
   font-style: normal;
@@ -793,7 +788,6 @@ img {
 
 .posts__title h2 {
   color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 36px;
   font-style: normal;
@@ -809,7 +803,6 @@ img {
 .posts__content {
   padding: 30px 0px 0px 0px;
   color: var(--text-text, #7b88a8);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -871,7 +864,6 @@ img {
 .sub-mail__content {
   color: var(--text-text, #7b88a8);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 22px;
   font-style: normal;
@@ -884,7 +876,6 @@ img {
   width: 870px;
   color: var(--text-heading, #2d3958);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 48px;
   font-style: normal;
@@ -927,7 +918,6 @@ img {
 .background-banner__title-banner h1 {
   color: var(--text-heading, #2d3958);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 48px;
   font-style: normal;
@@ -959,7 +949,6 @@ ul.breadcrumb li + li:before {
 .breadcrumb--color-h {
   color: var(--text-heading, #2d3958);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 15px;
   font-style: normal;
@@ -971,7 +960,6 @@ ul.breadcrumb li + li:before {
 
 .breadcrumb--color-b {
   color: var(--text-text, #7b88a8);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 15px;
   font-style: normal;
@@ -1029,7 +1017,6 @@ ul.breadcrumb li + li:before {
 
 .items-side-bar__title {
   color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 18px;
   font-style: normal;
@@ -1071,7 +1058,6 @@ ul.breadcrumb li + li:before {
 
 .side-bar-post__content a {
   color: var(--text-text, #7b88a8);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
@@ -1105,7 +1091,6 @@ ul.breadcrumb li + li:before {
 .side-bar-tags__name a {
   color: var(--text-text-white, #fff);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 12px;
   font-style: normal;
@@ -1141,7 +1126,6 @@ ul.breadcrumb li + li:before {
   flex-shrink: 0;
   color: var(--text-text-white, #fff);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 22px;
   font-style: normal;
@@ -1169,7 +1153,6 @@ ul.breadcrumb li + li:before {
 .side-bar-img__button a {
   color: #fff;
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 14px;
   font-style: normal;
@@ -1185,7 +1168,6 @@ ul.breadcrumb li + li:before {
 
 .posts-detail__title-extra {
   color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -1195,7 +1177,6 @@ ul.breadcrumb li + li:before {
 
 .posts-detail__content {
   color: var(--text-text, #7b88a8);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -1213,7 +1194,6 @@ ul.breadcrumb li + li:before {
 
 .posts-detail__content-bg {
   color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 18px;
   font-style: normal;
@@ -1241,7 +1221,6 @@ ul.breadcrumb li + li:before {
 
 .related__content a {
   color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 18px;
   font-style: normal;
@@ -1310,7 +1289,6 @@ ul.breadcrumb li + li:before {
 
 .comment__name {
   color: var(--text-heading, #333);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -1321,7 +1299,6 @@ ul.breadcrumb li + li:before {
 .comment__date {
   color: var(--text-text, #7b88a8);
   text-align: right;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 14px;
   font-style: normal;
@@ -1338,7 +1315,6 @@ ul.breadcrumb li + li:before {
 
 .comment__send a {
   color: var(--action-blue, #4f77ff);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 14px;
   font-style: normal;
@@ -1394,7 +1370,6 @@ ul.breadcrumb li + li:before {
 .comment__button a {
   color: #fff;
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 14px;
   font-style: normal;
@@ -1427,7 +1402,6 @@ ul.breadcrumb li + li:before {
 
 .category__title h2 {
   color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 18px;
   font-style: normal;
@@ -1474,7 +1448,6 @@ ul.breadcrumb li + li:before {
 
 .category__name {
   color: var(--text-heading, #333);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
@@ -1489,7 +1462,6 @@ ul.breadcrumb li + li:before {
 
 .category__name-s {
   color: var(--text-text, #7b88a8);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
@@ -1518,7 +1490,6 @@ ul.breadcrumb li + li:before {
 
 .category__price-sp {
   color: var(--text-heading, #333);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 14px;
   font-style: normal;
@@ -1535,7 +1506,6 @@ ul.breadcrumb li + li:before {
 
 .category__price-sum {
   color: var(--text-text, #888682);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 14px;
   font-style: normal;
@@ -1547,7 +1517,6 @@ ul.breadcrumb li + li:before {
 
 .category__filter a {
   color: var(--action-blue, #4f77ff);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 14px;
   font-style: normal;
@@ -1586,7 +1555,6 @@ ul.breadcrumb li + li:before {
 }
 .product__name a {
   color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 18px;
   font-style: normal;
@@ -1602,7 +1570,6 @@ ul.breadcrumb li + li:before {
 .product__price-product {
   color: var(--text-text, #7b88a8);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -1698,7 +1665,6 @@ ul.breadcrumb li + li:before {
 
 .product-detail-font__title h2 {
   color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 42px;
   font-style: normal;
@@ -1709,7 +1675,6 @@ ul.breadcrumb li + li:before {
 
 .product-detail-font__price {
   color: var(--text-text, #7b88a8);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 18px;
   font-style: normal;
@@ -1722,7 +1687,6 @@ ul.breadcrumb li + li:before {
 
 .product-detail-font__content {
   color: var(--text-text, #7b88a8);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -1733,7 +1697,6 @@ ul.breadcrumb li + li:before {
 }
 .product-detail-font__content span {
   color: var(--action-blue, #4f77ff);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -1756,7 +1719,6 @@ ul.breadcrumb li + li:before {
 
 .product-detail-font__title-color h3 {
   color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 18px;
   font-style: normal;
@@ -1799,7 +1761,6 @@ ul.breadcrumb li + li:before {
 .product-detail-font__quantity button a {
   color: #fff;
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 14px;
   font-style: normal;
@@ -1811,7 +1772,6 @@ ul.breadcrumb li + li:before {
 
 .product-detail-font__tags-font {
   color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 16px;
   font-style: normal;
@@ -1821,7 +1781,6 @@ ul.breadcrumb li + li:before {
 }
 .product-detail-font__tags-font a {
   color: var(--action-blue, #4f77ff);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 16px;
   font-style: normal;
@@ -1850,7 +1809,6 @@ ul.breadcrumb li + li:before {
 }
 .tab__menu a {
   color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 18px;
   font-style: normal;
@@ -1868,7 +1826,6 @@ ul.breadcrumb li + li:before {
 
 .tab__font {
   color: var(--text-text, #7b88a8);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -1898,7 +1855,6 @@ ul.breadcrumb li + li:before {
   padding-bottom: 90px;
   color: var(--text-heading, #2d3958);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 64px;
   font-style: normal;
@@ -1925,7 +1881,6 @@ ul.breadcrumb li + li:before {
 .porrfolio__button a {
   color: var(--text-text, #7b88a8);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 15px;
   font-style: normal;
@@ -1982,7 +1937,6 @@ ul.breadcrumb li + li:before {
 .project__items-title h3 {
   color: var(--text-text-white, #fff);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 22px;
   font-style: normal;
@@ -1994,7 +1948,6 @@ ul.breadcrumb li + li:before {
 .project__items-content {
   color: var(--text-text-gray, #e7e5ea);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 18px;
   font-style: normal;
@@ -2024,7 +1977,6 @@ ul.breadcrumb li + li:before {
   background: var(--bgbg-light, #f8fafc);
   width: 100%;
   min-height: 781px;
-  flex-shrink: 0;
   padding-bottom: 100px;
 }
 
@@ -2035,7 +1987,6 @@ ul.breadcrumb li + li:before {
 .reviews__title h2 {
   color: var(--text-heading, #2d3958);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 48px;
   font-style: normal;
@@ -2049,7 +2000,6 @@ ul.breadcrumb li + li:before {
   padding-bottom: 80px;
   color: var(--text-text, #7b88a8);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 22px;
   font-style: normal;
@@ -2081,7 +2031,6 @@ ul.breadcrumb li + li:before {
 .reviews__name {
   color: var(--text-heading, #2d3958);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 22px;
   font-style: normal;
@@ -2093,7 +2042,6 @@ ul.breadcrumb li + li:before {
 .reviews__brand {
   color: var(--text-text, #7b88a8);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -2105,7 +2053,6 @@ ul.breadcrumb li + li:before {
 .reviews__items-title {
   color: var(--text-heading, #2d3958);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 18px;
   font-style: normal;
@@ -2118,7 +2065,6 @@ ul.breadcrumb li + li:before {
 .reviews__items-content {
   color: var(--text-text, #7b88a8);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 18px;
   font-style: normal;
@@ -2162,7 +2108,6 @@ ul.breadcrumb li + li:before {
 .evaluate__title h2 {
   color: var(--text-heading, #2d3958);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 48px;
   font-style: normal;
@@ -2175,7 +2120,6 @@ ul.breadcrumb li + li:before {
 .evaluate__content {
   color: var(--text-text, #7b88a8);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 22px;
   font-style: normal;
@@ -2198,7 +2142,6 @@ ul.breadcrumb li + li:before {
 .evaluate__items-name {
   color: var(--text-heading, #2d3958);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 22px;
   font-style: normal;
@@ -2210,7 +2153,6 @@ ul.breadcrumb li + li:before {
 .evaluate__items-position {
   color: var(--text-text, #7b88a8);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -2222,7 +2164,6 @@ ul.breadcrumb li + li:before {
 .evaluate__items-content {
   color: var(--text-text, #7b88a8);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 18px;
   font-style: normal;
@@ -2277,7 +2218,6 @@ ul.breadcrumb li + li:before {
   border: 1px solid var(--lines-gray-line, #e7e5ea);
   width: 100%;
   min-height: 330px;
-  flex-shrink: 0;
 }
 
 .services__font {
@@ -2291,7 +2231,6 @@ ul.breadcrumb li + li:before {
 .services__title h2 {
   color: var(--text-heading, #2d3958);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 48px;
   font-style: normal;
@@ -2305,7 +2244,6 @@ ul.breadcrumb li + li:before {
 .services__content {
   color: var(--text-text, #7b88a8);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 18px;
   font-style: normal;
@@ -2352,7 +2290,6 @@ ul.breadcrumb li + li:before {
 .services__items-title {
   color: var(--primary-color-black, #120f1f);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 22px;
   font-style: normal;
@@ -2365,7 +2302,6 @@ ul.breadcrumb li + li:before {
 .services__items-content {
   color: var(--text-text, #7b88a8);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -2408,7 +2344,6 @@ ul.breadcrumb li + li:before {
 .logos__title h2 {
   color: var(--text-color-black, #000);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 36px;
   font-style: normal;
@@ -2442,13 +2377,11 @@ ul.breadcrumb li + li:before {
   background-color: #f7f5f1;
   width: 100%;
   min-height: 309px;
-  flex-shrink: 0;
   padding: 0px 60px;
 }
 
 .teams__title h3 {
   color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 36px;
   font-style: normal;
@@ -2496,7 +2429,6 @@ ul.breadcrumb li + li:before {
 
 .teams__items-title {
   color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 18px;
   font-style: normal;
@@ -2508,7 +2440,6 @@ ul.breadcrumb li + li:before {
 
 .teams__items-content {
   color: var(--text-text, #7b88a8);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -2544,7 +2475,6 @@ ul.breadcrumb li + li:before {
 
 .gallery__title h3 {
   color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 22px;
   font-style: normal;
@@ -2556,7 +2486,6 @@ ul.breadcrumb li + li:before {
 .gallery__price {
   color: var(--text-text, #7b88a8);
   text-align: right;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 22px;
   font-style: normal;
@@ -2567,7 +2496,6 @@ ul.breadcrumb li + li:before {
 
 .gallery__content {
   color: var(--text-text, #7b88a8);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 18px;
   font-style: normal;
@@ -2586,7 +2514,6 @@ ul.breadcrumb li + li:before {
 
 .gallery__items-title h3 {
   color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 42px;
   font-style: normal;
@@ -2600,7 +2527,6 @@ ul.breadcrumb li + li:before {
 
 .gallery__items-content {
   color: var(--black-200, #788190);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 18px;
   font-style: normal;
@@ -2615,7 +2541,6 @@ ul.breadcrumb li + li:before {
 .gallery__link a {
   color: var(--action-purple, #886cff);
   text-align: right;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 15px;
   font-style: normal;
@@ -2696,7 +2621,6 @@ ul.breadcrumb li + li:before {
 .about__title h2 {
   width: 870px;
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 48px;
   font-style: normal;
@@ -2717,7 +2641,6 @@ ul.breadcrumb li + li:before {
   height: 20px;
   color: var(--text-text, #7b88a8);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 18px;
   font-style: normal;
@@ -2754,7 +2677,6 @@ ul.breadcrumb li + li:before {
 }
 .about__items-off a {
   color: var(--action-blue, #4f77ff);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 18px;
   font-style: normal;
@@ -2765,7 +2687,6 @@ ul.breadcrumb li + li:before {
 
 .about__items-title h3 {
   color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 36px;
   font-style: normal;
@@ -2777,7 +2698,6 @@ ul.breadcrumb li + li:before {
 
 .about__items-content {
   color: var(--text-text, #7b88a8);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 18px;
   font-style: normal;
@@ -2795,7 +2715,6 @@ ul.breadcrumb li + li:before {
 
 .about__items-path a {
   color: var(--text-text, #7b88a8);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 14px;
   font-style: normal;
@@ -2905,7 +2824,6 @@ ul.breadcrumb li + li:before {
 .items-img__title h2 {
   color: var(--text-heading, #2d3958);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 42px;
   font-style: normal;
@@ -2918,7 +2836,6 @@ ul.breadcrumb li + li:before {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-feature-settings: "clig" off, "liga" off;
 }
 
 .items-img__items-img-bg::before {
@@ -2942,7 +2859,6 @@ ul.breadcrumb li + li:before {
 }
 .items-img__items-path a {
   color: var(--action-blue, #4f77ff);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 22px;
   font-style: normal;
@@ -2992,7 +2908,6 @@ ul.breadcrumb li + li:before {
 .pricing__title h2 {
   color: var(--text-heading, #2d3958);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 48px;
   font-style: normal;
@@ -3004,7 +2919,6 @@ ul.breadcrumb li + li:before {
 .pricing__content {
   color: var(--text-text, #7b88a8);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 22px;
   font-style: normal;
@@ -3024,7 +2938,6 @@ ul.breadcrumb li + li:before {
 
 .pricing__date {
   color: var(--text-text, #7b88a8);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 18px;
   font-style: normal;
@@ -3039,7 +2952,6 @@ ul.breadcrumb li + li:before {
   border: none;
   padding: 4px 12px;
   color: #fff;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
@@ -3051,7 +2963,6 @@ ul.breadcrumb li + li:before {
 .talk__title h2 {
   color: var(--text-heading, #2d3958);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 48px;
   font-style: normal;
@@ -3064,13 +2975,11 @@ ul.breadcrumb li + li:before {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-feature-settings: "clig" off, "liga" off;
 }
 
 .talk__content {
   color: var(--text-text, #7b88a8);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 22px;
   font-style: normal;
@@ -3122,7 +3031,6 @@ ul.breadcrumb li + li:before {
   min-height: 144px;
   color: var(--text-heading, #2d3958);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 72px;
   font-style: normal;
@@ -3135,7 +3043,6 @@ ul.breadcrumb li + li:before {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 72px;
   font-style: normal;
@@ -3150,7 +3057,6 @@ ul.breadcrumb li + li:before {
   flex-shrink: 0;
   color: var(--text-text, #7b88a8);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 18px;
   font-style: normal;
@@ -3183,7 +3089,6 @@ ul.breadcrumb li + li:before {
 .banner__play-content {
   color: var(--text-heading, #2d3958);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 15px;
   font-style: normal;
@@ -3275,7 +3180,6 @@ button:hover {
 .tables__items-package {
   color: var(--action-blue, #4f77ff);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 18px;
   font-style: normal;
@@ -3288,7 +3192,6 @@ button:hover {
 .tables__items-price {
   color: var(--text-heading, #2d3958);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 36px;
   font-style: normal;
@@ -3302,7 +3205,6 @@ button:hover {
   height: 45px;
   color: #696871;
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -3312,7 +3214,6 @@ button:hover {
 
 .tables__items-privilege {
   color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 22px;
   font-style: normal;

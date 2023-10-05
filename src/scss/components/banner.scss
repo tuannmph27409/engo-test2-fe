@@ -32,7 +32,7 @@
     min-height: 144px;
     color: var(--text-heading, #2d3958);
     text-align: center;
-    font-feature-settings: "clig" off, "liga" off;
+
     font-family: Outfit;
     font-size: 72px;
     font-style: normal;
@@ -48,7 +48,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-feature-settings: "clig" off, "liga" off;
+
     font-family: Outfit;
     font-size: 72px;
     font-style: normal;
@@ -64,7 +64,6 @@
   flex-shrink: 0;
   color: var(--text-text, #7b88a8);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 18px;
   font-style: normal;
@@ -97,7 +96,6 @@
 .banner__play-content {
   color: var(--text-heading, #2d3958);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 15px;
   font-style: normal;

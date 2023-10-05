@@ -27,7 +27,7 @@
 .gallery__title {
   h3 {
     color: var(--text-heading, #2d3958);
-    font-feature-settings: "clig" off, "liga" off;
+
     font-family: Outfit;
     font-size: 22px;
     font-style: normal;
@@ -40,7 +40,7 @@
 .gallery__price {
   color: var(--text-text, #7b88a8);
   text-align: right;
-  font-feature-settings: "clig" off, "liga" off;
+
   font-family: Outfit;
   font-size: 22px;
   font-style: normal;
@@ -51,7 +51,7 @@
 
 .gallery__content {
   color: var(--text-text, #7b88a8);
-  font-feature-settings: "clig" off, "liga" off;
+
   font-family: DM Sans;
   font-size: 18px;
   font-style: normal;
@@ -71,7 +71,7 @@
 .gallery__items-title {
   h3 {
     color: var(--text-heading, #2d3958);
-    font-feature-settings: "clig" off, "liga" off;
+
     font-family: Outfit;
     font-size: 42px;
     font-style: normal;
@@ -87,7 +87,7 @@
 
 .gallery__items-content {
   color: var(--black-200, #788190);
-  font-feature-settings: "clig" off, "liga" off;
+
   font-family: DM Sans;
   font-size: 18px;
   font-style: normal;
@@ -104,7 +104,7 @@
   a {
     color: var(--action-purple, #886cff);
     text-align: right;
-    font-feature-settings: "clig" off, "liga" off;
+
     font-family: Outfit;
     font-size: 15px;
     font-style: normal;

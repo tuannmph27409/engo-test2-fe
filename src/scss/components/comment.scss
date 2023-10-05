@@ -38,7 +38,6 @@
 
 .comment__name {
   color: var(--text-heading, #333);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -49,7 +48,6 @@
 .comment__date {
   color: var(--text-text, #7b88a8);
   text-align: right;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 14px;
   font-style: normal;
@@ -67,7 +65,7 @@
 .comment__send {
   a {
     color: var(--action-blue, #4f77ff);
-    font-feature-settings: "clig" off, "liga" off;
+
     font-family: Outfit;
     font-size: 14px;
     font-style: normal;

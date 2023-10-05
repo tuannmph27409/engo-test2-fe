@@ -2,14 +2,12 @@
   background-color: #f7f5f1;
   width: 100%;
   min-height: 309px;
-  flex-shrink: 0;
   padding: 0px 60px;
 }
 
 .teams__title {
   h3 {
     color: var(--text-heading, #2d3958);
-    font-feature-settings: "clig" off, "liga" off;
     font-family: Outfit;
     font-size: 36px;
     font-style: normal;
@@ -58,7 +56,6 @@
 
 .teams__items-title {
   color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 18px;
   font-style: normal;
@@ -70,7 +67,6 @@
 
 .teams__items-content {
   color: var(--text-text, #7b88a8);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;

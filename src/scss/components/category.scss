@@ -17,7 +17,7 @@
 .category__title {
   h2 {
     color: var(--text-heading, #2d3958);
-    font-feature-settings: "clig" off, "liga" off;
+
     font-family: Outfit;
     font-size: 18px;
     font-style: normal;
@@ -71,7 +71,6 @@
 
 .category__name {
   color: var(--text-heading, #333);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
@@ -86,7 +85,6 @@
 
 .category__name-s {
   color: var(--text-text, #7b88a8);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
@@ -115,7 +113,6 @@
 
 .category__price-sp {
   color: var(--text-heading, #333);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 14px;
   font-style: normal;
@@ -132,7 +129,6 @@
 
 .category__price-sum {
   color: var(--text-text, #888682);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 14px;
   font-style: normal;
@@ -145,7 +141,7 @@
 .category__filter {
   a {
     color: var(--action-blue, #4f77ff);
-    font-feature-settings: "clig" off, "liga" off;
+
     font-family: Outfit;
     font-size: 14px;
     font-style: normal;
