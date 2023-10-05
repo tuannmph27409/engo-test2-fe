@@ -82,12 +82,8 @@
 
 .posts__item-all {
   display: flex;
-  // width: 835px;
-  // min-height: 3633px;
   flex-direction: column;
-  align-items: flex-start;
   gap: 50px;
-  flex-shrink: 0;
 }
 
 .posts__title {
@@ -114,4 +110,16 @@
 
 .posts__button {
   padding: 40px 0px;
+}
+
+@media (max-width: 992px) {
+  .posts__title {
+    h2 {
+      font-size: 30px;
+    }
+  }
+
+  .posts__content {
+    font-size: 14px;
+  }
 }

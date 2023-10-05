@@ -1,9 +1,7 @@
 .posts__pagination {
-  padding: 3px 0px 0px 360px;
-
-  .pagination {
-    display: flex;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   .pagination a {
     color: var(--text-text, #7b88a8);

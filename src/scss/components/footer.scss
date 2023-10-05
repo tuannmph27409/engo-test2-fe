@@ -23,7 +23,6 @@
 
 .footer__logo {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 10px;
 
@@ -134,7 +133,7 @@
 }
 
 .footer__svg-box {
-  background-color: blue;
+  background-color: #4f77ff;
   width: 62px;
   height: 62px;
   border-radius: 50%;
@@ -146,4 +145,32 @@
 .footer__svg-box:hover {
   background-color: aqua;
   transition: 0.5s;
+}
+
+@media (max-width: 992px) {
+  .footer__menu-bottom {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 786px) {
+  .footer__svg-box {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer__introl {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer__svg-box {
+    width: 35px;
+    height: 35px;
+  }
+
+  .footer__introl {
+    font-size: 10px;
+  }
 }
