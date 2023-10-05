@@ -50,3 +50,9 @@
     transform: scale(1.1);
   }
 }
+
+@media (max-width: 576px) {
+  .product-detail__img-small {
+    flex-wrap: wrap;
+  }
+}

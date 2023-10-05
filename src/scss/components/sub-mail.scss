@@ -47,9 +47,8 @@
   gap: 10px;
   input {
     padding: 15px;
-    width: 235px;
+    width: 100%;
     height: 48px;
-    flex-shrink: 0;
     border-radius: 5px;
     border: 1px solid var(--lines-gray-line, #e7e5ea);
     background: var(--text-text-white, #fff);
@@ -72,5 +71,8 @@
 @media (max-width: 576px) {
   .sub-mail__title {
     font-size: 24px;
+  }
+  .sub-mail__content {
+    font-size: 18px;
   }
 }

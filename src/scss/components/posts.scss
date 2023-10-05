@@ -123,3 +123,23 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 576px) {
+  .posts__title {
+    h2 {
+      font-size: 26px;
+    }
+  }
+
+  .posts__content {
+    font-size: 12px;
+  }
+
+  .posts__info-name {
+    font-size: 13px;
+  }
+
+  .posts__info-day {
+    font-size: 12px;
+  }
+}

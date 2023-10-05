@@ -5,7 +5,6 @@
 .product__name {
   a {
     color: var(--text-heading, #2d3958);
-
     font-family: Outfit;
     font-size: 18px;
     font-style: normal;
@@ -13,8 +12,6 @@
     line-height: 155.556%;
     letter-spacing: 0.4px;
   }
-  text-align: center;
-  padding: 15px 0px 15px 0px;
 }
 
 .product__name {
@@ -41,8 +38,8 @@
 .product__img {
   overflow: hidden;
   img {
+    border-radius: 5px;
     transition: 0.3s;
-    box-shadow: gray;
   }
 }
 
@@ -54,4 +51,12 @@
 
 .product-category {
   padding-top: 100px;
+}
+
+.product__products {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  padding-top: 30px;
 }

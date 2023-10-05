@@ -172,3 +172,39 @@
   padding-bottom: 5px;
   align-items: unset;
 }
+
+.category__closebtn {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .category__menu-hbg {
+    padding: 100px 60px 0px 60px;
+  }
+
+  .category {
+    position: absolute;
+    height: 120vh;
+    width: 0;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: all 0.5s ease-out;
+    display: flex;
+    flex-direction: column;
+  }
+  .category__top--pd {
+    padding-bottom: 20px;
+    align-items: unset;
+  }
+  .category__closebtn {
+    display: block;
+    position: absolute;
+    right: 20px;
+    font-size: 50px;
+    color: #2d3958;
+    cursor: pointer;
+    top: 70px;
+  }
+}

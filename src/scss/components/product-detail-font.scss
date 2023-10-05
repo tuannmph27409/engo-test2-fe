@@ -158,3 +158,30 @@
     background-color: aqua;
   }
 }
+
+@media (max-width: 992px) {
+  .product-detail-font__title {
+    h2 {
+      font-size: 40px;
+    }
+  }
+}
+
+@media (max-width: 786px) {
+  .product-detail-font__title {
+    h2 {
+      font-size: 38px;
+    }
+  }
+  .product-detail-font {
+    padding-left: unset;
+  }
+}
+
+@media (max-width: 576px) {
+  .product-detail-font__title {
+    h2 {
+      font-size: 36px;
+    }
+  }
+}

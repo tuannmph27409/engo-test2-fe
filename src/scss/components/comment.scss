@@ -99,3 +99,9 @@
   display: flex;
   gap: 30px;
 }
+
+@media (max-width: 576px) {
+  .comment__rep {
+    padding-left: unset;
+  }
+}
