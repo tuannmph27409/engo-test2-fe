@@ -34,3 +34,16 @@ button:hover {
   width: 140px;
   height: 48px;
 }
+
+.button--services {
+  width: 209px;
+  border-radius: 5px;
+  background: #4f77ff;
+}
+.button--tables {
+  border-radius: 0px 0px 10px 10px;
+  background: var(--action-blue, #4f77ff);
+  border: none;
+  width: 100%;
+  height: 60px;
+}

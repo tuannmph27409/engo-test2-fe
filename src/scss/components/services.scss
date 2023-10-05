@@ -110,7 +110,8 @@
 
 .services__button {
   padding-top: 85px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .services__items-before {

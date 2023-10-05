@@ -545,6 +545,7 @@ img {
 .header__menu-svg {
   display: flex;
   gap: 20px;
+  cursor: pointer;
 }
 
 .header__before {
@@ -605,7 +606,6 @@ img {
 
 .footer__introl {
   color: var(--text-text-white, #fff);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -628,7 +628,6 @@ img {
 }
 .footer__logo h3 {
   color: var(--text-text-white, #fff);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 24px;
   font-style: normal;
@@ -642,7 +641,6 @@ img {
 }
 .footer__menu-title a {
   color: var(--text-text-white, #fff);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 22px;
   font-style: normal;
@@ -658,7 +656,6 @@ img {
 }
 .footer__items a {
   color: var(--text-text-gray, #e7e5ea);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 14px;
   font-style: normal;
@@ -670,7 +667,6 @@ img {
 
 .footer__items-content {
   color: var(--text-text-gray, #e7e5ea);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -678,14 +674,13 @@ img {
   line-height: 162.5%;
 }
 
-.footer__send-mail {
+.footer__send-mail form {
   display: flex;
   padding: 25px 0px;
   gap: 6px;
 }
 .footer__send-mail input {
   color: var(--text-text, #7b88a8);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
@@ -718,6 +713,26 @@ img {
 .footer__menu-title a:hover {
   color: aqua;
   transition: 0.3s;
+}
+
+.footer_svg a {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__svg-box {
+  background-color: blue;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__svg-box:hover {
+  background-color: aqua;
+  transition: 0.5s;
 }
 
 .posts {
@@ -982,7 +997,6 @@ ul.breadcrumb li + li:before {
 .posts__pagination .pagination a {
   color: var(--text-text, #7b88a8);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Outfit;
   font-size: 14px;
   font-style: normal;
@@ -1880,88 +1894,6 @@ ul.breadcrumb li + li:before {
   padding-top: 90px;
 }
 
-.blog__title {
-  color: var(--text-heading, #2d3958);
-  text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Outfit;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 116.667%;
-  letter-spacing: -2px;
-  padding-top: 120px;
-  padding-right: 220px;
-  padding-left: 220px;
-}
-
-.blog__items {
-  border-bottom: 1px solid #e7e5ea;
-}
-
-.blog__items-title {
-  padding-top: 20px;
-  padding-bottom: 30px;
-}
-.blog__items-title a {
-  color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Outfit;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 145.455%;
-  letter-spacing: -1px;
-}
-
-.blog__items-content {
-  color: var(--text-text, #7b88a8);
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: DM Sans;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 155.556%;
-  letter-spacing: -0.3px;
-}
-
-.blog__items-date-time {
-  display: flex;
-  gap: 20px;
-  padding-bottom: 25px;
-  padding-top: 18px;
-}
-
-.blog__items-date {
-  display: flex;
-  gap: 5px;
-}
-
-.blog__date-hour {
-  color: var(--text-text, #7b88a8);
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: DM Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 171.429%;
-  letter-spacing: -0.3px;
-}
-
-.blog__items-img {
-  overflow: hidden;
-  border-radius: 20px;
-}
-.blog__items-img img:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
-}
-
-.blog__items-title a:hover {
-  color: aqua;
-  transition: 0.3s;
-}
-
 .porrfolio__title {
   padding-bottom: 90px;
   color: var(--text-heading, #2d3958);
@@ -2220,54 +2152,6 @@ ul.breadcrumb li + li:before {
   box-shadow: 0px 20px 50px 0px rgba(79, 119, 255, 0.2);
 }
 
-.post-blog__news-all {
-  border-bottom: 1px solid #e7e5ea;
-}
-
-.post-blog__news-pd {
-  padding-bottom: 30px;
-}
-
-.post-blog__news-title {
-  width: 250px;
-  height: 88px;
-  flex-shrink: 0;
-}
-.post-blog__news-title a {
-  color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Outfit;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 145.455%;
-  letter-spacing: -1px;
-}
-
-.post-blog__items-all {
-  padding-top: 90px;
-}
-
-.post-blog__img {
-  width: 100px;
-  height: 100px;
-  flex-shrink: 0;
-}
-
-.post-blog__img {
-  overflow: hidden;
-  border-radius: 20px;
-}
-.post-blog__img img:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
-}
-
-.post-blog__news-title a:hover {
-  color: aqua;
-  transition: 0.3s;
-}
-
 .evaluate {
   width: 100%;
   min-height: 781px;
@@ -2494,7 +2378,8 @@ ul.breadcrumb li + li:before {
 
 .services__button {
   padding-top: 85px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .services__items-before {
@@ -2541,9 +2426,16 @@ ul.breadcrumb li + li:before {
   padding-bottom: 127px;
 }
 
-.logos__items-img img:hover {
+.logos__items-img {
+  overflow: hidden;
+  padding: 10px;
+}
+.logos__items-img img {
   transition: 0.3s;
-  transform: scale(1.3);
+}
+
+.logos__items-img:hover img {
+  transform: scale(1.1);
 }
 
 .teams__all {
@@ -2750,7 +2642,7 @@ ul.breadcrumb li + li:before {
   background-color: #fff;
   width: 56px;
   height: 56px;
-  border: 1px solid black;
+  border: 1px solid #e7e5ea;
   border-radius: 50%;
   position: relative;
 }
@@ -2763,6 +2655,7 @@ ul.breadcrumb li + li:before {
 
 .gallery__svg-bg:hover {
   box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.2);
+  border: none;
 }
 .gallery__svg-bg:hover svg path {
   stroke: #2d3958;
@@ -2837,7 +2730,6 @@ ul.breadcrumb li + li:before {
 .about__items-bg {
   width: 100%;
   min-height: 554px;
-  flex-shrink: 0;
   border-radius: 20px;
   background: #fff;
   box-shadow: 0px 60px 40px 0px rgba(18, 2, 47, 0.1);
@@ -2963,8 +2855,11 @@ ul.breadcrumb li + li:before {
   overflow: hidden;
   border-radius: 20px;
 }
-.about__img-small img:hover {
-  transition: 0.3s;
+.about__img-small img {
+  transition: 0.5s;
+}
+
+.about__img-small:hover img {
   transform: scale(1.1);
 }
 
@@ -2972,8 +2867,11 @@ ul.breadcrumb li + li:before {
   overflow: hidden;
   border-radius: 20px;
 }
-.about__img-big img:hover {
-  transition: 0.3s;
+.about__img-big img {
+  transition: 0.5s;
+}
+
+.about__img-big:hover img {
   transform: scale(1.1);
 }
 
@@ -3150,122 +3048,6 @@ ul.breadcrumb li + li:before {
   letter-spacing: -0.3px;
 }
 
-.pricing__items {
-  width: 100%;
-  min-height: 570px;
-  flex-shrink: 0;
-  border-radius: 10px;
-  border: 1px solid var(--lines-gray-line, #e7e5ea);
-  background: #fff;
-  padding-top: 35px;
-}
-
-.pricing__items-top {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding-bottom: 30px;
-}
-
-.pricing__svg-privilege {
-  display: flex;
-  gap: 12px;
-  align-items: center;
-  padding-top: 15px;
-  padding-left: 100px;
-}
-
-.pricing__items-package {
-  color: var(--action-blue, #4f77ff);
-  text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Outfit;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 155.556%;
-  letter-spacing: 0.4px;
-  padding-bottom: 10px;
-}
-
-.pricing__items-price {
-  color: var(--text-heading, #2d3958);
-  text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Outfit;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 127.778%;
-  letter-spacing: -1px;
-}
-
-.pricing__items-desc {
-  width: 323px;
-  height: 45px;
-  flex-shrink: 0;
-  color: #696871;
-  text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: DM Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 162.5%;
-}
-
-.pricing__items-privilege {
-  color: var(--text-heading, #2d3958);
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Outfit;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 145.455%;
-  letter-spacing: -1px;
-}
-
-.pricing__buy {
-  padding-top: 60px;
-}
-.pricing__buy button {
-  border-radius: 0px 0px 10px 10px;
-  background: var(--action-blue, #4f77ff);
-  border: none;
-  width: 100%;
-  height: 60px;
-  flex-shrink: 0;
-}
-.pricing__buy a {
-  color: var(--text-text-white, #fff);
-  text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Outfit;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 160%;
-  letter-spacing: -0.3px;
-  text-transform: uppercase;
-}
-
-.pricing__items-all {
-  position: relative;
-}
-
-.pricing__items-all::before {
-  content: "";
-  position: absolute;
-  width: 70px;
-  height: 70px;
-  background-color: #ffc623;
-  top: 30px;
-  right: -80px;
-  border-radius: 50% 50% 50% 0%;
-}
-
 .talk__title h2 {
   color: var(--text-heading, #2d3958);
   text-align: center;
@@ -3398,25 +3180,6 @@ ul.breadcrumb li + li:before {
   gap: 7px;
 }
 
-.banner__button button {
-  padding: 18px 32px;
-  border-radius: 5px;
-  background: var(--action-blue, #4f77ff);
-  border: none;
-}
-.banner__button a {
-  color: var(--text-text-white, #fff);
-  text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Outfit;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 160%;
-  letter-spacing: -0.3px;
-  text-transform: uppercase;
-}
-
 .banner__play-content {
   color: var(--text-heading, #2d3958);
   text-align: center;
@@ -3428,10 +3191,6 @@ ul.breadcrumb li + li:before {
   line-height: 160%;
   letter-spacing: -0.3px;
   text-transform: uppercase;
-}
-
-.banner__button button:hover {
-  background-color: aqua;
 }
 
 .button {
@@ -3470,6 +3229,182 @@ button:hover {
   background: var(--action-purple, #886cff);
   width: 140px;
   height: 48px;
+}
+
+.button--services {
+  width: 209px;
+  border-radius: 5px;
+  background: #4f77ff;
+}
+
+.button--tables {
+  border-radius: 0px 0px 10px 10px;
+  background: var(--action-blue, #4f77ff);
+  border: none;
+  width: 100%;
+  height: 60px;
+}
+
+.tables__items {
+  width: 100%;
+  min-height: 570px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid var(--lines-gray-line, #e7e5ea);
+  background: #fff;
+  padding-top: 35px;
+}
+
+.tables__items-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+
+.tables__svg-privilege {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding-top: 15px;
+  padding-left: 100px;
+}
+
+.tables__items-package {
+  color: var(--action-blue, #4f77ff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 155.556%;
+  letter-spacing: 0.4px;
+  padding-bottom: 10px;
+}
+
+.tables__items-price {
+  color: var(--text-heading, #2d3958);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 127.778%;
+  letter-spacing: -1px;
+}
+
+.tables__items-desc {
+  width: 323px;
+  height: 45px;
+  color: #696871;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.5%;
+}
+
+.tables__items-privilege {
+  color: var(--text-heading, #2d3958);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145.455%;
+  letter-spacing: -1px;
+}
+
+.tables__buy {
+  padding-top: 60px;
+}
+
+.tables__items-all {
+  position: relative;
+}
+
+.tables__items-all::before {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: #ffc623;
+  top: 30px;
+  right: -80px;
+  border-radius: 50% 50% 50% 0%;
+}
+
+.secrets {
+  border-bottom: 1px solid #e7e5ea;
+}
+
+.secrets__items-title {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.secrets__items-title a {
+  color: var(--text-heading, #2d3958);
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145.455%;
+  letter-spacing: -1px;
+}
+
+.secrets__items-content {
+  color: var(--text-text, #7b88a8);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.556%;
+  letter-spacing: -0.3px;
+}
+
+.secrets__items-date-time {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 25px;
+  padding-top: 18px;
+}
+
+.secrets__items-date {
+  display: flex;
+  gap: 5px;
+}
+
+.secrets__date-hour {
+  color: var(--text-text, #7b88a8);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 171.429%;
+  letter-spacing: -0.3px;
+}
+
+.secrets__items-img {
+  overflow: hidden;
+  border-radius: 20px;
+}
+.secrets__items-img img {
+  transition: 0.3s;
+}
+
+.secrets__items-img:hover img {
+  transform: scale(1.1);
+}
+
+.secrets__items-title a:hover {
+  color: aqua;
+  transition: 0.3s;
 }
 
 /*# sourceMappingURL=styles.css.map */
