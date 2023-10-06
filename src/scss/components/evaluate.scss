@@ -111,3 +111,8 @@
     transform: scale(1.1);
   }
 }
+
+.evaluate__items:hover {
+  transition: 0.5s;
+  box-shadow: 0px 20px 50px 0px rgba(79, 119, 255, 0.2);
+}
