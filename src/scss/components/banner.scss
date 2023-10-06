@@ -59,7 +59,7 @@
 }
 
 .banner__content {
-  width: 529.302px;
+  width: 70%;
   min-height: 47.95px;
   flex-shrink: 0;
   color: var(--text-text, #7b88a8);
@@ -103,4 +103,29 @@
   line-height: 160%;
   letter-spacing: -0.3px;
   text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+  .banner__img {
+    background-image: unset;
+    background-color: #f7f5f1;
+    background-size: unset;
+  }
+}
+
+@media (max-width: 992px) {
+  .banner__title {
+    h1 {
+      width: 100%;
+      font-size: 64px;
+    }
+  }
+}
+
+@media (max-width: 786px) {
+  .banner__title {
+    h1 {
+      font-size: 60px;
+    }
+  }
 }

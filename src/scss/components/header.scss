@@ -165,4 +165,9 @@
     color: #2d3958;
     cursor: pointer;
   }
+  span {
+    background: unset;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+  }
 }

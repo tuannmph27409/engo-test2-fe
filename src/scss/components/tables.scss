@@ -1,6 +1,5 @@
 .tables__items {
   width: 100%;
-  min-height: 570px;
   border-radius: 10px;
   border: 1px solid var(--lines-gray-line, #e7e5ea);
   background: #fff;
@@ -21,7 +20,6 @@
   gap: 12px;
   align-items: center;
   padding-top: 15px;
-  padding-left: 100px;
 }
 
 .tables__items-package {
@@ -50,7 +48,7 @@
 }
 
 .tables__items-desc {
-  width: 323px;
+  width: 80%;
   height: 45px;
   color: #696871;
   text-align: center;
@@ -90,4 +88,15 @@
   top: 30px;
   right: -80px;
   border-radius: 50% 50% 50% 0%;
+}
+
+.tables__items-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.tables__items-aline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

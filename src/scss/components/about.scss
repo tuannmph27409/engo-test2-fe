@@ -14,31 +14,27 @@
 }
 
 .about__title {
-  h2 {
-    width: 870px;
-    text-align: center;
-
-    font-family: Outfit;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 116.667%;
-    letter-spacing: -2px;
-    color: var(--text-heading, #2d3958);
-  }
-  span {
-    background: var(
-      --Purple-Gradient,
-      linear-gradient(186deg, #61dcdf 0.38%, #886cff 100%)
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+  width: 80%;
+  font-family: Outfit;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 116.667%;
+  letter-spacing: -2px;
+  color: var(--text-heading, #2d3958);
+}
+span {
+  background: var(
+    --Purple-Gradient,
+    linear-gradient(186deg, #61dcdf 0.38%, #886cff 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .about__content {
-  width: 870px;
+  width: 80%;
   height: 20px;
   color: var(--text-text, #7b88a8);
   text-align: center;
@@ -56,10 +52,13 @@
   min-height: 554px;
   border-radius: 20px;
   background: #fff;
-  box-shadow: 0px 60px 40px 0px rgba(18, 2, 47, 0.1);
   position: relative;
   padding: 60px 60px 0px 60px;
   z-index: 1;
+}
+
+.about__items-bg:hover {
+  box-shadow: 0px 60px 40px 0px rgba(18, 2, 47, 0.1);
 }
 
 .about__items-bg::after {
@@ -139,7 +138,7 @@
 }
 
 .about__img-small {
-  width: 370px;
+  width: 33%;
   height: 230px;
   position: absolute;
   transform: translate(25%, 45%);
@@ -147,7 +146,6 @@
   img {
     border-radius: 20px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    box-shadow: 0px 5px 20px 0px rgba(18, 2, 47, 0.15);
   }
 }
 
@@ -226,5 +224,36 @@
   a:hover {
     color: aqua;
     transition: 0.3s;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about__items-all {
+    padding-right: unset;
+  }
+  .about__items-bg::after {
+    display: none;
+  }
+  .about__img-big::after {
+    display: none;
+  }
+
+  .about__img-small {
+    img {
+      display: none;
+    }
+  }
+
+  .about__img-bg {
+    padding: 30px;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .about {
+    padding-bottom: 300px;
+  }
+  .about__pd-items {
+    padding: 0px 30px;
   }
 }
