@@ -14,6 +14,7 @@
 }
 
 .about__title {
+  text-align: center;
   width: 80%;
   font-family: Outfit;
   font-size: 48px;
@@ -22,15 +23,15 @@
   line-height: 116.667%;
   letter-spacing: -2px;
   color: var(--text-heading, #2d3958);
-}
-span {
-  background: var(
-    --Purple-Gradient,
-    linear-gradient(186deg, #61dcdf 0.38%, #886cff 100%)
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  span {
+    background: var(
+      --Purple-Gradient,
+      linear-gradient(186deg, #61dcdf 0.38%, #886cff 100%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 .about__content {
