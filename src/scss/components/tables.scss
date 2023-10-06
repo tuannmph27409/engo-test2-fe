@@ -75,17 +75,17 @@
   padding-top: 60px;
 }
 
-.tables__items-all {
+.tables__items--before {
   position: relative;
 }
 
-.tables__items-all::before {
+.tables__items--before::before {
   content: "";
   position: absolute;
   width: 70px;
   height: 70px;
   background-color: #ffc623;
-  top: 30px;
+  top: 0px;
   right: -80px;
   border-radius: 50% 50% 50% 0%;
 }
@@ -99,4 +99,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .tables__items--before::before {
+    display: none;
+  }
 }
